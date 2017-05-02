@@ -16,3 +16,4 @@
 (global-set-key (kbd "C-c C-p") 'paste-to-term)
 (global-set-key (kbd "C-x C-p") 'persp-switch)
 
+(global-set-key (kbd "C-x g") 'magit-status)

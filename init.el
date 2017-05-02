@@ -28,6 +28,9 @@
 				 exec-path-from-shell
                  multi-term
                  use-package
+                 markdown-mode
+                 evil-magit
+                 doom-themes
 				 ;; These packages depend on those above
 				 evil-leader
 				 evil-nerd-commenter
