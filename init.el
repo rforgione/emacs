@@ -1,5 +1,5 @@
 ;; Custom paths
-(defvar emacs-dir (concat (getenv "HOME") "/emacs/") "top level emacs dir")
+(defvar emacs-dir (concat (getenv "HOME") "/.emacs.d/") "top level emacs dir")
 (defvar vendor-dir (concat emacs-dir "vendor/") "packages not from ELPA")
 (defvar module-dir (concat emacs-dir "user/") "don't enter here. magic!")
 (defvar elpa-dir (concat emacs-dir "elpa/") "Elpa stuff here")
@@ -26,11 +26,11 @@
 				 projectile
 				 monokai-theme
 				 exec-path-from-shell
-                 multi-term
-                 use-package
-                 markdown-mode
-                 evil-magit
-                 doom-themes
+				 multi-term
+				 use-package
+				 markdown-mode
+				 evil-magit
+				 doom-themes
 				 ;; These packages depend on those above
 				 evil-leader
 				 evil-nerd-commenter
