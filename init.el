@@ -26,11 +26,12 @@
 				 projectile
 				 monokai-theme
 				 exec-path-from-shell
-				 multi-term
-				 use-package
-				 markdown-mode
-				 evil-magit
-				 doom-themes
+                 multi-term
+                 use-package
+                 markdown-mode
+                 evil-magit
+                 doom-themes
+                 neotree
 				 ;; These packages depend on those above
 				 evil-leader
 				 evil-nerd-commenter

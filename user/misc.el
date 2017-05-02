@@ -55,3 +55,5 @@
 
 (use-package evil
   :demand)
+
+(setq custom-file "~/.emacs.d/vendor/custom.el")
