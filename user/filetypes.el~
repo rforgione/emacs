@@ -1,0 +1,6 @@
+;; emacs doesn't know these by default
+(setq auto-mode-alist
+      (nconc
+       '((".hamd" . haml-mode))
+       '((".zsh" . sh-mode))
+       auto-mode-alist)
